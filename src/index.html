@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetic quiz</title>
+    <!--Bootstrap-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!-- Animate/styles -->
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link href="assets/css/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+
+            <div class="header_text">
+                
+                <div class="title">
+                    <h1 class="title title_header">
+                        Онлайн-подбор средств для лица
+                    </h1>
+                </div>
+                <div class="subtitle">
+                    <h3 class="subtitle subtitle_header">
+                        Пройдите короткий тест и получите список наиболее <br> 
+                        подходящих для вас косметических продуктов
+                    </h3>
+                </div>  
+            </div>
+        </div>
+    </header>
+
+    <!-- Questions -->
+    <div class="questions">
+        <div class="container">
+            
+            <div class="questions_cards">
+                <div class="questions_cards_body">
+
+                    <div class="circles_wrapper">
+                        <div class="circle active"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                    </div>
+
+                    <div class="questions_counter">
+                        <h5 class="questions_counter_text">
+                            Вопрос <span>1</span> из <span>3</span>
+                        </h5>
+                    </div>
+
+                    <div class="quiz_wrapper">
+                        <div class="quiz_block">
+
+                            <div class="quiz_question">Сколько вам лет?</div>
+
+                            <div class="quiz_options">
+
+                                <div class="form-check">
+                                    <input 
+                                        class="form-check-input" 
+                                        type="radio" 
+                                        name="flexRadioDefault" 
+                                        id="first_option"
+                                        value="Нужны средства для ребёнка младше 10 лет"
+                                    >
+                                    <label 
+                                        class="form-check-label" 
+                                        for="first_option"
+                                    >
+                                        Нужны средства для ребёнка младше 10 лет
+                                    </label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input 
+                                        class="form-check-input" 
+                                        type="radio" 
+                                        name="flexRadioDefault" 
+                                        id="second_option"
+                                        value="Мне меньше 25 лет" 
+                                    >
+                                    <label 
+                                        class="form-check-label" 
+                                        for="second_option"
+                                    >
+                                        Мне меньше 25 лет
+                                    </label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input 
+                                        class="form-check-input" 
+                                        type="radio" 
+                                        name="flexRadioDefault" 
+                                        id="third_option"
+                                        value="От 25 до 35 лет" 
+                                    >
+                                    <label 
+                                        class="form-check-label" 
+                                        for="third_option"
+                                    >
+                                        От 25 до 35 лет
+                                    </label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input 
+                                        class="form-check-input" 
+                                        type="radio" 
+                                        name="flexRadioDefault" 
+                                        id="fourth_option"
+                                        value="От 35 до 45 лет" 
+                                    >
+                                    <label 
+                                        class="form-check-label" 
+                                        for="fourth_option"
+                                    >
+                                        От 35 до 45 лет
+                                    </label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input 
+                                        class="form-check-input" 
+                                        type="radio" 
+                                        name="flexRadioDefault" 
+                                        id="fifth_option"
+                                        value="Мне больше 45 лет" 
+                                    >
+                                    <label 
+                                        class="form-check-label" 
+                                        for="fifth_option"
+                                    >
+                                        Мне больше 45 лет
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quiz_block hide">
+
+                            <div class="quiz_question">Какой у вас тип кожи?</div>
+    
+                            <div class="quiz_options">
+        
+                                <div class="form-check">
+                                    <input 
+                                        class="form-check-input" 
+                                        type="radio" 
+                                        name="flexRadioDefault" 
+                                        id="sixth__option"
+                                        value="Сухая"
+                                    >
+                                    <label 
+                                        class="form-check-label" 
+                                        for="sixth__option"
+                                    >
+                                        Сухая
+                                    </label>
+                                </div>
+        
+                                <div class="form-check">
+                                    <input 
+                                        class="form-check-input" 
+                                        type="radio" 
+                                        name="flexRadioDefault" 
+                                        id="seventh_option"
+                                        value="Нормальная" 
+                                    >
+                                    <label 
+                                        class="form-check-label" 
+                                        for="seventh_option"
+                                    >
+                                        Нормальная
+                                    </label>
+                                </div>
+        
+                                <div class="form-check">
+                                    <input 
+                                        class="form-check-input" 
+                                        type="radio" 
+                                        name="flexRadioDefault" 
+                                        id="eighth_option"
+                                        value="Комбинированная" 
+                                    >
+                                    <label 
+                                        class="form-check-label" 
+                                        for="eighth_option"
+                                    >
+                                        Комбинированная
+                                    </label>
+                                </div>
+        
+                                <div class="form-check">
+                                    <input 
+                                        class="form-check-input" 
+                                        type="radio" 
+                                        name="flexRadioDefault" 
+                                        id="ninth_option"
+                                        value="Жирная" 
+                                    >
+                                    <label 
+                                        class="form-check-label" 
+                                        for="ninth_option"
+                                    >
+                                        Жирная
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quiz_block hide">
+
+                            <div class="quiz_question">Беспокоят ли воспаления на лице?</div>
+    
+                            <div class="quiz_options">
+                                <div class="form-check">
+                                    <input 
+                                        class="form-check-input" 
+                                        type="radio" 
+                                        name="flexRadioDefault" 
+                                        id="tenth_option"
+                                        value="Да"
+                                    >
+                                    <label 
+                                        class="form-check-label" 
+                                        for="tenth_option"
+                                    >
+                                        Да
+                                    </label>
+                                </div>
+        
+                                <div class="form-check">
+                                    <input 
+                                        class="form-check-input" 
+                                        type="radio" 
+                                        name="flexRadioDefault" 
+                                        id="eleventh_option"
+                                        value="Нет" 
+                                    >
+                                    <label 
+                                        class="form-check-label" 
+                                        for="eleventh_option"
+                                    >
+                                        Нет
+                                    </label>
+                                </div>
+        
+                                <div class="form-check">
+                                    <input 
+                                        class="form-check-input" 
+                                        type="radio" 
+                                        name="flexRadioDefault" 
+                                        id="twelfth_option"
+                                        value="Иногда" 
+                                    >
+                                    <label 
+                                        class="form-check-label" 
+                                        for="twelfth_option"
+                                    >
+                                        Иногда
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="questions_buttons_wrapper">
+                        <button type="button" class="btn" id="back">Назад</button>
+                        <button type="button" class="btn show" id="next">Дальше</button>
+                        <button type="button" class="btn" id="result">Узнать результат</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+
+        <div class="tabs_wrapper">
+
+            <div class="tabs_item">
+                <div class="tabs_item_img">
+                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
+                    <img src="./assets/img/product-1.jpeg" alt="#" class="product">
+                </div>
+                <a href="#" class="tabs_item_link">Бальзам от пигм.пятен для чув. кожи ISISPHARMA NEOTONE Sensitive 30мл</a>
+                <div class="tabs_item_price-box">
+                    <div class="tabs_item_price old_price">115.45</div>
+                    <div class="tabs_item_price">98.13 <span>руб.</span></div>
+                </div>
+            </div>
+
+            <div class="tabs_item">
+                <div class="tabs_item_img">
+                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
+                    <img src="./assets/img/product-2.jpeg" alt="#" class="product">
+                </div>
+                <a href="#" class="tabs_item_link">Пилинг энзиматический Dermedic HYDRAIN3 HIALURO 50г</a>
+                <div class="tabs_item_price-box">
+                    <div class="tabs_item_price">46.55 <span>руб.</span></div>
+                </div>
+            </div>
+
+            <div class="tabs_item">
+                <div class="tabs_item_img">
+                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
+                    <img src="./assets/img/product-3.jpeg" alt="#" class="product">
+                </div>
+                <a href="#" class="tabs_item_link">Крем дневной д/лица Legere, 50мл</a>
+                <div class="tabs_item_price-box">
+                    <div class="tabs_item_price">55.75 <span>руб.</span></div>
+                </div>
+            </div>
+
+            <div class="tabs_item">
+                <div class="tabs_item_img">
+                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
+                    <img src="./assets/img/product-4.jpeg" alt="#" class="product">
+                </div>
+                <a href="#" class="tabs_item_link">Крем увл. укрепл.д/чувств.нормал.и обезвож. кожи ISISPHARMA SENSYLIA 24h 40мл</a>
+                <div class="tabs_item_price-box">
+                    <div class="tabs_item_price">45.55 <span>руб.</span></div>
+                </div>
+            </div>
+
+            <div class="tabs_item">
+                <div class="tabs_item_img">
+                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
+                    <img src="./assets/img/product-5.jpeg" alt="#" class="product">
+                </div>
+                <a href="#" class="tabs_item_link">Флюид с оч.выс.степ.заот солн.излуч.«Сухое прикосновение» SPF 50+ 40мл</a>
+                <div class="tabs_item_price-box">
+                    <div class="tabs_item_price old_price">72.00</div>
+                    <div class="tabs_item_price">59.02 <span>руб.</span></div>
+                </div>
+            </div>
+
+            <div class="tabs_item">
+                <div class="tabs_item_img">
+                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
+                    <img src="./assets/img/product-6.jpeg" alt="#" class="product">
+                </div>
+                <a href="#" class="tabs_item_link">Концентрат д/проблемной кожи склонной к акне AVENE CLEANANCE Comedomed 30 мл</a>
+                <div class="tabs_item_price-box">
+                    <div class="tabs_item_price">43.25 <span>руб.</span></div>
+                </div>
+            </div>
+
+            <div class="tabs_item">
+                <div class="tabs_item_img">
+                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
+                    <img src="./assets/img/product-7.jpeg" alt="#" class="product">
+                </div>
+                <a href="#" class="tabs_item_link">Крем очищ. успокаив.д/проблемной кожи AVENE 200 мл</a>
+                <div class="tabs_item_price-box">
+                    <div class="tabs_item_price old_price">76.25</div>
+                    <div class="tabs_item_price">63.5 <span>руб.</span></div>
+                </div>
+            </div>
+
+            <div class="tabs_item">
+                <div class="tabs_item_img">
+                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
+                    <img src="./assets/img/product-8.jpeg" alt="#" class="product">
+                </div>
+                <a href="#" class="tabs_item_link">Маска La Miso моделирующая (альгинатная) с коэнзимом Q10 1000г</a>
+                <div class="tabs_item_price-box">
+                    <div class="tabs_item_price">242.00 <span>руб.</span></div>
+                </div>
+            </div>
+
+            <div class="tabs_item">
+                <div class="tabs_item_img">
+                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
+                    <img src="./assets/img/product-9.jpeg" alt="#" class="product">
+                </div>
+                <a href="#" class="tabs_item_link">Сыворотка д/лица с комплексом pretino Ahava SAFE RETINOL 30 мл</a>
+                <div class="tabs_item_price-box">
+                    <div class="tabs_item_price">242.00 <span>руб.</span></div>
+                </div>
+            </div>
+
+            <div class="tabs_item">
+                <div class="tabs_item_img">
+                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
+                    <img src="./assets/img/product-10.jpeg" alt="#" class="product">
+                </div>
+                <a href="#" class="tabs_item_link">Эссенция активирующая смягчающая кожу Ahava Apple of Sodom 100 мл</a>
+                <div class="tabs_item_price-box">
+                    <div class="tabs_item_price">240.00 <span>руб.</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tabs_pagination">
+
+            <nav>
+                <ul class="tabs_pagination_list">
+
+                    <li class="tabs_pagination_list-item active">
+                        <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="tabs_pagination_list-item">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="tabs_pagination_list-item">
+                        <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="tabs_pagination_list-item">
+                        <a class="page-link" href="#">...</a>
+                    </li>
+                    <li class="tabs_pagination_list-item">
+                        <a class="page-link" href="#">13</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</body>
+</html>

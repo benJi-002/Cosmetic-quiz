@@ -1,0 +1,121 @@
+.tabs {
+    margin-top: 66px;
+
+    &_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 35px;
+        justify-content: center;
+    }
+
+    &_item {
+        max-width: 240px;
+
+        &_img {
+            position: relative;
+            max-width: 240px;
+            max-height: 240px;
+            border-radius: 6.75px;
+            border: 1px solid #E9E9E9;
+
+            .heart {
+                display: block;
+                position: absolute;
+                top: 15px;
+                right: 15px;
+
+                transition: all 0.5s ease;
+                
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+
+            .product {
+                display: block;
+                margin: 0 auto;
+                max-width: 235px;
+                max-height: 235px;
+                object-fit: scale-down;
+                border-radius: 8px;
+            }
+        }
+
+        &_link {
+            display: block;
+            margin-top: 22px;
+            color: #000;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 22px;
+        }
+
+        &_price-box {
+            margin-top: 15px;
+            display: flex;
+            gap: 10px;
+            align-items: flex-end;
+
+            .old_price {
+                color: #B8B8B8;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 20px;
+                text-decoration-line: line-through;
+            }
+        }
+
+        &_price {
+            color: #000;
+            font-size: 27px;
+            font-weight: 600;
+            line-height: 27px;
+
+            span {
+                color: #000;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 20px;
+            }
+        }
+    }
+
+    &_pagination {
+        margin-top: 62px;
+
+        &_list {
+            display: flex;
+            gap: 12px;
+
+            .active {
+                .page-link {
+                    color: #00A5FF;
+                }
+            }
+
+            &-item {
+
+
+                &:hover {
+
+                    .page-link {
+                        transform: scale(1.1);
+                        color: #00A5FF;
+                    }
+                }
+
+                .page-link {
+                    transition: all 0.3s ease;
+
+                    display: block;
+                    color: #B8B8B8;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 20px;
+    
+
+                }
+            }
+        } 
+    }
+}

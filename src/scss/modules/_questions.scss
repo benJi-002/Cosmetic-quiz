@@ -1,0 +1,153 @@
+.questions {
+    margin-top: 32px;
+
+    .hide {
+        display: none;
+    }
+
+    &_cards {
+
+        &_body {
+            position: relative;
+            max-width: 868px;
+            min-height: 432px;
+            background: #DDF3FF;
+            border-radius: 10px;
+            padding: 34px 35px 121px 35px;
+        }
+    }
+
+    &_counter {
+        margin-top: 16px;
+
+        &_text {
+            color: #9A9A9A;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 15px;
+        }
+    }
+
+    &_buttons_wrapper {
+        position: absolute;
+        bottom: 65px;
+        
+        display: flex;
+        gap: 10px;
+
+        #back {
+            transition: all 0.5s ease;
+            background: #FFF;
+            border-color: #FFF;
+
+            color: #000;
+
+            &:hover {
+                background: #f5f4f4;
+                border-color: #ebebeb;
+            }
+        }
+
+        #next {
+            transition: all 0.5s ease;
+            background: #00A5FF;
+            border-color: #00A5FF;
+
+            color: #FFF;
+
+            &:hover {
+                background: #0095e5;
+                border-color: #008ad5;
+            }
+        }
+
+        #result {
+            transition: all 0.5s ease;
+            background: #00A5FF;
+            border-color: #00A5FF;
+
+            color: #FFF;
+
+            &:hover {
+                background: #0095e5;
+                border-color: #008ad5;
+            }
+        }
+
+        .show {
+            display: block;
+        }
+    }
+}
+
+.circles_wrapper {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    .circle {
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        background: #89D1F8
+
+        
+    }
+
+    .active {
+        background: #00A5FF
+    }
+}
+
+.quiz {
+    
+    &_wrapper {
+        margin-top: 38px;
+    }
+
+    &_block {
+
+        .hide {
+            display: 'none';
+        }
+    }
+
+    &_question {
+        color: #000;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    &_options {
+        margin-top: 33px;
+
+        .form-check {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            min-height: 15px;
+
+            &:nth-child(1) {
+                margin-top: 0;
+            }
+
+            &-input {
+                margin: 0;
+                width: 15px;
+                height: 15px;
+                fill: #FFF;
+                stroke-width: 1px;
+                stroke: #9A9A9A;
+            }
+
+            &-label {
+                display: block;
+                color: #000;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 15px;
+            }
+        }
+    }
+}
