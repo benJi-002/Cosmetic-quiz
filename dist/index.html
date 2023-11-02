@@ -48,7 +48,7 @@
 
                     <div class="questions_counter">
                         <h5 class="questions_counter_text">
-                            Вопрос <span>1</span> из <span>3</span>
+                            Вопрос <span id="from">1</span> из <span id="to">3</span>
                         </h5>
                     </div>
 
@@ -282,122 +282,10 @@
     </div>
 
     <!-- Tabs -->
-    <div class="tabs">
+    <div class="tabs hide">
 
         <div class="tabs_wrapper">
 
-            <div class="tabs_item">
-                <div class="tabs_item_img">
-                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
-                    <img src="./assets/img/product-1.jpeg" alt="#" class="product">
-                </div>
-                <a href="#" class="tabs_item_link">Бальзам от пигм.пятен для чув. кожи ISISPHARMA NEOTONE Sensitive 30мл</a>
-                <div class="tabs_item_price-box">
-                    <div class="tabs_item_price old_price">115.45</div>
-                    <div class="tabs_item_price">98.13 <span>руб.</span></div>
-                </div>
-            </div>
-
-            <div class="tabs_item">
-                <div class="tabs_item_img">
-                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
-                    <img src="./assets/img/product-2.jpeg" alt="#" class="product">
-                </div>
-                <a href="#" class="tabs_item_link">Пилинг энзиматический Dermedic HYDRAIN3 HIALURO 50г</a>
-                <div class="tabs_item_price-box">
-                    <div class="tabs_item_price">46.55 <span>руб.</span></div>
-                </div>
-            </div>
-
-            <div class="tabs_item">
-                <div class="tabs_item_img">
-                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
-                    <img src="./assets/img/product-3.jpeg" alt="#" class="product">
-                </div>
-                <a href="#" class="tabs_item_link">Крем дневной д/лица Legere, 50мл</a>
-                <div class="tabs_item_price-box">
-                    <div class="tabs_item_price">55.75 <span>руб.</span></div>
-                </div>
-            </div>
-
-            <div class="tabs_item">
-                <div class="tabs_item_img">
-                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
-                    <img src="./assets/img/product-4.jpeg" alt="#" class="product">
-                </div>
-                <a href="#" class="tabs_item_link">Крем увл. укрепл.д/чувств.нормал.и обезвож. кожи ISISPHARMA SENSYLIA 24h 40мл</a>
-                <div class="tabs_item_price-box">
-                    <div class="tabs_item_price">45.55 <span>руб.</span></div>
-                </div>
-            </div>
-
-            <div class="tabs_item">
-                <div class="tabs_item_img">
-                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
-                    <img src="./assets/img/product-5.jpeg" alt="#" class="product">
-                </div>
-                <a href="#" class="tabs_item_link">Флюид с оч.выс.степ.заот солн.излуч.«Сухое прикосновение» SPF 50+ 40мл</a>
-                <div class="tabs_item_price-box">
-                    <div class="tabs_item_price old_price">72.00</div>
-                    <div class="tabs_item_price">59.02 <span>руб.</span></div>
-                </div>
-            </div>
-
-            <div class="tabs_item">
-                <div class="tabs_item_img">
-                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
-                    <img src="./assets/img/product-6.jpeg" alt="#" class="product">
-                </div>
-                <a href="#" class="tabs_item_link">Концентрат д/проблемной кожи склонной к акне AVENE CLEANANCE Comedomed 30 мл</a>
-                <div class="tabs_item_price-box">
-                    <div class="tabs_item_price">43.25 <span>руб.</span></div>
-                </div>
-            </div>
-
-            <div class="tabs_item">
-                <div class="tabs_item_img">
-                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
-                    <img src="./assets/img/product-7.jpeg" alt="#" class="product">
-                </div>
-                <a href="#" class="tabs_item_link">Крем очищ. успокаив.д/проблемной кожи AVENE 200 мл</a>
-                <div class="tabs_item_price-box">
-                    <div class="tabs_item_price old_price">76.25</div>
-                    <div class="tabs_item_price">63.5 <span>руб.</span></div>
-                </div>
-            </div>
-
-            <div class="tabs_item">
-                <div class="tabs_item_img">
-                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
-                    <img src="./assets/img/product-8.jpeg" alt="#" class="product">
-                </div>
-                <a href="#" class="tabs_item_link">Маска La Miso моделирующая (альгинатная) с коэнзимом Q10 1000г</a>
-                <div class="tabs_item_price-box">
-                    <div class="tabs_item_price">242.00 <span>руб.</span></div>
-                </div>
-            </div>
-
-            <div class="tabs_item">
-                <div class="tabs_item_img">
-                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
-                    <img src="./assets/img/product-9.jpeg" alt="#" class="product">
-                </div>
-                <a href="#" class="tabs_item_link">Сыворотка д/лица с комплексом pretino Ahava SAFE RETINOL 30 мл</a>
-                <div class="tabs_item_price-box">
-                    <div class="tabs_item_price">242.00 <span>руб.</span></div>
-                </div>
-            </div>
-
-            <div class="tabs_item">
-                <div class="tabs_item_img">
-                    <img src="./assets/icons/heart.svg" alt="#" class="heart">
-                    <img src="./assets/img/product-10.jpeg" alt="#" class="product">
-                </div>
-                <a href="#" class="tabs_item_link">Эссенция активирующая смягчающая кожу Ahava Apple of Sodom 100 мл</a>
-                <div class="tabs_item_price-box">
-                    <div class="tabs_item_price">240.00 <span>руб.</span></div>
-                </div>
-            </div>
         </div>
 
         <div class="tabs_pagination">
@@ -424,5 +312,7 @@
             </nav>
         </div>
     </div>
+
+    <script src="./js/script.js""></script>
 </body>
 </html>
